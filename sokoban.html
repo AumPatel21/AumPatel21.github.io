@@ -1,0 +1,76 @@
+<!--
+File: Sokoban.html
+GUI Assignment: Creating your first web page
+Aum Patel, Umass Lowell Computer Science, aum_patel@student.uml.edu
+Copyright (c) 2021 by Aum. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AP on ***September 26, 2023 at 11:50 PM***
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>First Web Page!</title>
+</head>
+
+<body>
+    <!-- div for the navigation bar -->
+    <div class="bar">
+        <a href="index.html">Home</a>
+        <a href="sokoban.html">Sokoban</a>
+        <a href="calc.html">Calculator</a>
+        <a href="bmi.html">BMI Calculator</a>
+    </div>
+    <!-- Sokoban content -->
+    <div class="SokBox">
+        <!-- heading with a link to the source code of the game -->
+        <h1><a href="https://github.com/AumPatel21/Projects/tree/main/Sokoban" target="_blank">Sokoban</a></h1>
+        <div class="content1">
+            <!-- A snippet of Sokoban -->
+            <img src="images/sok2.png" alt="Sokoban">
+            <div class="text">
+                <!-- Description -->
+                <h3>Description</h3>
+                <p id="info">Sokoban is a tile based block pushing game where the user pushed the boxes 
+                    in a warehouse to it's designated/available locations. The player can only push the boxes and cannot pull them.
+                    The player can also not push more than one box at a time. The player can move up, down, left and right. The player
+                    If the player can no longer move the boxes (e.g. box is stuck in a corner), the game is over. The player can choose 
+                    to restart the game at any time, even after winning. The game is over when all the boxes are in their designated locations.
+                </p>
+            </div>
+        </div>
+
+        <div class="content2">
+            <!-- A GIF showing the gameplay of Sokoban -->
+            <img src="images/sokVid.gif" alt="Sokoban gameplay">
+            <div class="text">
+                <!-- Implementation details -->
+                <h3>Implementation (C++, SFML)</h3>
+                <p>The implementation of this game was done using C++ and the SFML library. For me this was one of the most fun and 
+                    stressful assignment throughout Computing 4! The algorithm for this program was quite tricky and took a lot of time 
+                    for me to figure out but it was a very rewarding feeling when I finished it. The user can play the game by using the
+                    arrow keys or W, A, S, D keys. The game can be restarted using the R key and user can quit the game using the ESC key.
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+</body>
+
+</html>
